@@ -6,6 +6,7 @@ pipeline {
             steps {
                 //checkout scm
                 echo 'Building..'
+                bat 'python --version'
             }
         }
         stage('Test') {
