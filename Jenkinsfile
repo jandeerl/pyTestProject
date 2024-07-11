@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                //pytest
                 echo 'Testing..'
+                bat 'pytest'
             }
         }
         stage('Deploy') {
