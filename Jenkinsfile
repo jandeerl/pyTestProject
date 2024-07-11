@@ -1,10 +1,12 @@
 pipeline {
     agent any
+    environment {
+         PATH = "C:/Users/pc/AppData/Local/Programs/Python/Python310/;$PATH"
+    }
 
     stages {
         stage('Build') {
             steps {
-                PATH = "C:\Users\pc\AppData\Local\Programs\Python\Python310\;$PATH"
                 //checkout scm
                 echo 'Building..'
                 bat 'python --version'
