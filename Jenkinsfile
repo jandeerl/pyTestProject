@@ -15,7 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                bat 'python3 -m pytest'
+                bat 'pytest .\\tests'
             }
         }
     }
