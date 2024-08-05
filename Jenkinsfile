@@ -18,10 +18,5 @@ pipeline {
                 bat 'python3 -m pytest'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
     }
 }
