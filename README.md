@@ -22,7 +22,7 @@ class BasePage:
 
 ### Locators
 
-Locators for the elements of the page are put in their own class in `locators.py`, separating each page into their own class.
+Locators for the elements of the page are put in their own file in `locators.py`, separating each page into their own class.
 ```python
 #locators.py
 class MainPageLocators(object):
