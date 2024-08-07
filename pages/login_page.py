@@ -36,8 +36,3 @@ class LoginPage(BasePage):
         self.input_username(username).input_password(
             password).click_login_button()
         return MainPage(self.driver)
-
-    def check_username_input(self):
-        username_input = super().find_element(
-            *LoginPageLocators.USERNAME_INPUT).get_attribute("value")
-        return username_input
