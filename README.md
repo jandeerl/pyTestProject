@@ -94,5 +94,8 @@ pipeline {
     }
 }
 ```
+Jenkins configuration
 <img src="jenkins.png" alt="Jenkins configuration">
+
+Blue Ocean view of test run
 <img src="passingtest.png" alt ="Passing Login Test">
